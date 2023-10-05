@@ -14,6 +14,7 @@ def binary_search(array,i,j,target):
                 return mid
             else:
                 return binary_search(array,i,mid-1,target)
+    return -1
 
 # Linear Search to find infinite number
 # Time Complexity: O(n)
